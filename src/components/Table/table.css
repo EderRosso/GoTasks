@@ -1,0 +1,41 @@
+table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0 0.5rem;
+}
+
+table thead th {
+  background-color: #fff;
+  color: #969cb3;
+  opacity: 0.9;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+table tbody tr:first-child {
+  margin-top: 20px;
+}
+
+table tbody td {
+  background-color: #fff;
+  color: #83889a;
+  padding: 1.2em;
+  animation: slideTd 1s;
+}
+
+@keyframes slideTd {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.icon-delete {
+  cursor: pointer;
+}
+
+.icon-delete:hover {
+  opacity: 0.8;
+}

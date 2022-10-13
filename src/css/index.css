@@ -1,0 +1,43 @@
+.container {
+  width: 100%; /* ocupar 100% da largura da tela */
+  height: 100vh; /* ocupar 100% da altura da tela */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /*Cada elemento para um canto da tela*/
+}
+
+.content {
+  width: 100%;
+  max-width: 720px;
+  flex: 1;
+  margin: 3em auto 6em auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.btn-new-task {
+  color: #34ca00;
+}
+
+.btn-new-task:hover {
+  background-color: #34ca00;
+  color: #fff;
+}
+
+.total-tasks {
+  color: #83889a;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.message-status{
+  text-align: center;
+  color: #969CB3;
+  margin-top: 2em;
+}

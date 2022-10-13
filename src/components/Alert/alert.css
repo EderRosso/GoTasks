@@ -1,0 +1,30 @@
+.alert-container{
+    background-color: #DE404F;
+    width: 100%;
+    max-width: 300px;
+    padding: 16px;
+    border-radius: 8px;
+
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+}
+
+.alert-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title, .message{
+    color: #FFF;
+}
+
+.icon-close{
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
